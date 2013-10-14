@@ -1,0 +1,56 @@
+/*
+Template Name: CleanWeb Template
+Author: Idea4Theme Team
+Author URI: http://www.idea4theme.com/
+Description: CleanWeb Responsive Site Template.
+Version: 1.0.0
+*/
+
+/*-------- Global CSS Reset --------*/
+body { margin:0;padding:0;background:#666666; }
+html,body{ margin:0; padding:0; font:normal 13px/1.5 "Oxygen", Arial, Geneva, Helvetica, sans-serif; color:#333333;}
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {border:0; font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}a img{border:0;}
+img, object, embed { max-width: 100%;}
+img { height: auto;}
+p{ margin:0 0 8px 0;}
+ol, ul { list-style: none;}
+ol li {list-style-type: decimal;}
+li,ul li{ list-style:disc;}
+a{ outline:0;border:0;}
+img{ border:0;}
+
+A:link { color :#333333; text-decoration : none;}
+A:visited { color :#666666; text-decoration : none;}
+A:hover { color :#409dc1; text-decoration:none;}
+A:active { color :#333333; text-decoration : none;}
+.color_text { color:#409dc1; }
+.color_bg{ background:#409dc1; }
+
+h1{ font-size:28px;line-height:1.5em;color:#333333;font-weight:700;font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+h2{ font-size:24px;line-height:1.5em;color:#333333;font-weight:700;font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+h3{ font-size:20px;line-height:1.5em;color:#333333;font-weight:700;font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+h4{ font-size:18px;line-height:1.5em;color:#333333;font-weight:700;font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+h5{ font-size:16px;line-height:1.5em;color:#333333;font-weight:700;font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+h6{ font-size:14px;line-height:1.5em;color:#333333;font-weight:700;font-family:"Oxygen", Arial, Geneva, Helvetica, sans-serif;}
+
+.pe-spacer { clear: both; display: block; margin: 0; min-height: 0 !important;  padding: 0; width: 100%;}
+.pe-spacer.size10 { height: 10px;}
+.pe-spacer.size20 { height: 20px;}
+.pe-spacer.size30 { height: 30px;}
+.pe-spacer.size40 { height: 40px;}
+.pe-spacer.size50 { height: 50px;}
+.pe-spacer.size60 { height: 60px;}
+.pe-spacer.size70 { height: 70px;}
+.pe-spacer.size100 { height: 100px;}
+.left_border{ border-left:1px solid #ededed;}
+.right_border{ border-right:1px solid #ededed;}
+.top_border{ border-top:1px solid #ededed;}
+.bottom_border{ border-bottom:1px solid #ededed;}
+
+/*Clear float*/
+.clearafter:after{ clear:both; content:"."; height:0px; font-size:0px; visibility:hidden; display:block;}
+.clearafter{ display:inline-block;}
+.clearafter{ display:block;}
+.clear{ clear:both;}
+.clear_float{ clear:both;line-height:0;font-size:0;}
